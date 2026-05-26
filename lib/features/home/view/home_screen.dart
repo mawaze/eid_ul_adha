@@ -303,10 +303,10 @@ class _MessageInput extends StatelessWidget {
           color: AppColors.textPrimary,
           height: 1.6,
         ),
-        decoration: InputDecoration(
+        decoration: const InputDecoration(
           hintText: 'Write your Eid wishes...',
           border: InputBorder.none,
-          contentPadding: const EdgeInsets.all(AppDimensions.md),
+          contentPadding: EdgeInsets.all(AppDimensions.md),
           counterText: '',
         ),
       ),
@@ -481,7 +481,7 @@ class _BottomNav extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 150,
+      height: 100,
       decoration: const BoxDecoration(
         color: Colors.transparent,
       ),
