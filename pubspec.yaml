@@ -1,0 +1,41 @@
+name: eid_ul_adha_wishes
+description: A premium Eid ul Adha wishes app with elegant Islamic aesthetics.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  share_plus: ^10.0.2
+  animations: ^2.0.11
+  lottie: ^3.1.2
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/launcher_icon.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/launcher_icon.png"
+  windows:
+    generate: true
+    image_path: "assets/images/launcher_icon.png"
+    icon_size: 48
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/animations/
