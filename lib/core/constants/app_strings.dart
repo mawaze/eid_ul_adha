@@ -34,7 +34,7 @@ abstract class AppStrings {
   // Default messages
   static const Map<String, String> defaultMessages = {
     'Family': 'Wishing our beloved family a blessed Eid ul Adha filled with joy, peace, and Allah\'s infinite blessings. May our bond grow stronger with each passing day. Eid Mubarak! 🌙',
-    'Love': 'To my Love, may this Eid ul Adha bring you and your family immense happiness and divine blessings. Wishing you a joyful and memorable celebration! Eid Mubarak! ✨',
+    'Love': 'To my Love, may this Eid ul Adha bring you and your family immense happiness and divine blessings. Wishing you a joyful and memorable celebration! Eid Mubarak! ✨.Especially for you',
     'Colleagues': 'Warmest Eid ul Adha greetings to you and your family. May this blessed occasion fill your life with happiness, success, and prosperity. Eid Mubarak! 🕌',
     'All': 'May the blessings of Eid ul Adha fill your heart with gratitude and your home with love. Wishing you a beautiful and blessed celebration. Eid Mubarak! 🌟',
   };
