@@ -481,7 +481,7 @@ class _BottomNav extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 50,
+      height: 70,
       decoration: const BoxDecoration(
         color: Colors.transparent,
       ),
